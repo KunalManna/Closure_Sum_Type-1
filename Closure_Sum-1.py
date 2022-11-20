@@ -1,5 +1,8 @@
-#input----434256          Explanation:  4+6=10  3+5=8  4+2=6
-#output---1086                    Ans:      1086
+#input->1: 434256          Explanation:  4+6=10  3+5=8  4+2=6
+#output:   1086                    Ans:      1086
+
+#input->2: 7210654         Explanation:  7+4=11  2+5=7  1+6=7  0
+#output:   11770                   Ans:      11770
 
 
 def closureSum(st):
