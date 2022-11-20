@@ -6,6 +6,9 @@ def closureSum(st):
     n=len(st)
     for i in range(0,n//2):
         print(int(st[i])+int(st[-1-i]),end="")
+        
+    if n%2!=0:
+        print(st[n//2])
 
 
 s=input("Enter the numbers:\n") 
